@@ -1,0 +1,17 @@
+#footers{
+	display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#footer{
+    background-color: #55423a;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    margin-top: 40px;
+}
+
+#footer:hover{
+	color: #ffda45;
+	transition:400ms;
+}
